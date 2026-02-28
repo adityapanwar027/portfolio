@@ -1,23 +1,19 @@
-import React from 'react'
-import './LandingPage.css'
-import Mywork from '../Components/LandingComponents/Mywork'
-import Hireme from '../Components/LandingComponents/Hireme'
-import Discuss from '../Components/LandingComponents/Discuss'
-import Slider from '../Components/LandingComponents/Slider'
-
+import React from "react";
+import Hero from "../Components/LandingComponents/Hero";
+import Mywork from "../Components/LandingComponents/Mywork";
+import Hireme from "../Components/LandingComponents/Hireme";
+import Discuss from "../Components/LandingComponents/Discuss";
+import Slider from "../Components/LandingComponents/Slider";
 function LandingPage() {
   return (
-
-    <div className="landing-layout">
-
+    <div>
+      <Hero />
       <Mywork />
       <Hireme />
-      <Discuss /> 
-      <Slider></Slider>
-
+      <Discuss />
+      <Slider />
     </div>
-
-  )
+  );
 }
 
-export default LandingPage
+export default LandingPage;

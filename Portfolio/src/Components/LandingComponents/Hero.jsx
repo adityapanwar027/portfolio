@@ -3,7 +3,6 @@ import Eclipse2 from "/Frames/Ellipse 2.svg";
 import Frame4 from "/Frames/Frame 4.svg";
 import Frame3 from "/Frames/Frame 3.svg";
 import Frame4Left from "/Frames/Frame 4 (1).svg";
-import Frame56 from "/Frames/Frame 56.svg"; // Importing the button
 import Doodle from "/Frames/Frame 68 (1).svg";
 
 const girlImage =
