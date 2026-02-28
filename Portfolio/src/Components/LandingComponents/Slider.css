@@ -1,0 +1,67 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+  background:#d9d9d9;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.banner{
+  width:90%;
+  background:#ff6a00;
+  padding:60px 0;
+  border-radius:25px;
+  position:relative;
+  overflow:hidden;
+}
+
+/* White Slanted Strip */
+.white-strip{
+  position:absolute;
+  top:50%;
+  left:-5%;
+  width:110%;
+  height:90px;
+  background:#fff;
+  transform:rotate(-3deg) translateY(-50%);
+  display:flex;
+  align-items:center;
+  overflow:hidden;
+}
+
+/* Sliding container */
+.slide-track{
+  display:flex;
+  width:max-content;
+  animation: scroll 15s linear infinite;
+}
+
+/* Text style */
+.slide-text{
+  font-size:48px;
+  font-weight:500;
+  white-space:nowrap;
+  padding-right:80px;
+}
+
+.slide-text span{
+  color:#ff6a00;
+  margin:0 20px;
+}
+
+/* Animation */
+@keyframes scroll{
+  0%{
+    transform:translateX(0);
+  }
+  100%{
+    transform:translateX(-50%);
+  }
+}

@@ -1,0 +1,9 @@
+.landing-layout {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-layout > * {
+  width: 100%;
+}

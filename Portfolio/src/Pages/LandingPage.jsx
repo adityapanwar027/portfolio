@@ -1,10 +1,22 @@
 import React from 'react'
-import Hero from '../Components/LandingComponents/Hero'
+import './LandingPage.css'
+import Mywork from '../Components/LandingComponents/Mywork'
+import Hireme from '../Components/LandingComponents/Hireme'
+import Discuss from '../Components/LandingComponents/Discuss'
+import Slider from '../Components/LandingComponents/Slider'
+
 function LandingPage() {
   return (
-   <>
-   <Hero></Hero>
-   </>
+
+    <div className="landing-layout">
+
+      <Mywork />
+      <Hireme />
+      <Discuss /> 
+      <Slider></Slider>
+
+    </div>
+
   )
 }
 
