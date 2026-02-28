@@ -1,9 +1,12 @@
 import React from 'react'
-import Hero from '../Components/LandingComponents/Hero'
+import Mywork from '../Components/LandingComponents/Mywork'
 function LandingPage() {
   return (
    <>
-   <Hero></Hero>
+
+   <Mywork></Mywork>
+
+
    </>
   )
 }
