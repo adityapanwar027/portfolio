@@ -183,21 +183,21 @@ const Hero = () => {
       <div className="hero-section">
         <img src={Eclipse2} alt="Eclipse background" className="eclipse" />
 
-        {/* Left side text */}
+        {/* left side text */}
         <img
           src={Frame4Left}
           alt="Left side text"
           className={`frame4-left ${isHovered ? "hovered" : ""}`}
         />
 
-        {/* Right side text */}
+        {/* right side text */}
         <img
           src={Frame3}
           alt="Right side text"
           className={`frame3 ${isHovered ? "hovered" : ""}`}
         />
 
-        {/* Girl image */}
+        {/* girl image */}
         <img
           src={girlImage}
           alt="Girl"
@@ -206,14 +206,14 @@ const Hero = () => {
           onMouseLeave={() => setIsHovered(false)}
         />
 
-        {/* Center text that disappears on hover */}
+        {/* center text that disappears on hover */}
         <img
           src={Frame4}
           alt="Design elements"
           className={`frame4 ${isHovered ? "hovered" : ""}`}
         />
 
-        {/* Doodle that appears on hover */}
+        {/* doodle that appears on hover */}
         <img
           src={Doodle}
           alt="Doodle design"
