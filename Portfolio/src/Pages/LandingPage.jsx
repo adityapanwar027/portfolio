@@ -6,6 +6,7 @@ import Havelook from "../Components/LandingComponents/Havelook";
 import Discuss from "../Components/LandingComponents/Discuss";
 import Slider from "../Components/LandingComponents/Slider";
 import Footer from '../Components/GlobalComponents/Footer'
+import Testimonial from "../Components/LandingComponents/Testimonial";
 
 function LandingPage() {
   return (
@@ -17,6 +18,7 @@ function LandingPage() {
       <Discuss />
       <Slider />
       <Footer/>
+      <Testimonial/>
       
       
       
