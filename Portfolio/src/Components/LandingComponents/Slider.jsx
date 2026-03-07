@@ -7,19 +7,19 @@ function Slider() {
       <div className="white-strip">
         <div className="slide-track">
           <div className="slide-text">
-            ✦ Wireframe 
-            <span>✦</span> User Research 
-            <span>✦</span> UX Design 
-            <span>✦</span> App Design 
-            <span>✦</span> Dashboard
+            <img src="/src/assets/Star 7 (1).svg" alt="" /> Wireframe 
+            <span><img src="/src/assets/Star 7 (1).svg" alt="" /></span> User Research 
+            <span><img src="/src/assets/Star 7 (1).svg" alt="" /></span> UX Design 
+            <span><img src="/src/assets/Star 7 (1).svg" alt="" /></span> App Design 
+            <span><img src="/src/assets/Star 7 (1).svg" alt="" /></span> Dashboard
           </div>
-
+                  {/* copy the cards for animation */}
           <div className="slide-text">
-            ✦ Wireframe 
-            <span>✦</span> User Research 
-            <span>✦</span> UX Design 
-            <span>✦</span> App Design 
-            <span>✦</span> Dashboard
+            <img src="/src/assets/Star 7 (1).svg" alt="" /> Wireframe 
+            <span><img src="/src/assets/Star 7 (1).svg" alt="" /></span> User Research 
+            <span><img src="/src/assets/Star 7 (1).svg" alt="" /></span> UX Design 
+            <span><img src="/src/assets/Star 7 (1).svg" alt="" /></span> App Design 
+            <span><img src="/src/assets/Star 7 (1).svg" alt="" /></span> Dashboard
           </div>
         </div>
       </div>

@@ -16,7 +16,7 @@ function Mywork() {
               <h2>Cognizant, Mumbai</h2>
               <p>Sep 2016 - July 2020</p>
             </div>
-
+            
             <div className="mywork-circle-wrapper">
               <div className="mywork-circle-outer">
                 <div className="mywork-circle-inner"></div>

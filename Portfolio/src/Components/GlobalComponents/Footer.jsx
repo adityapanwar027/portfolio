@@ -22,7 +22,7 @@ function Footer() {
           {/* Column 1 */}
           <div className="footer-col about">
             <div className="logo">
-              <div className="logo-circle">JC</div>
+              <div className="logo-circle"><img src="/src/assets/Frame 55 copy.svg" alt="" /></div>
               <span>JCREA</span>
             </div>
 
@@ -81,7 +81,6 @@ function Footer() {
           <p>Copyright© 2023 Fawziuiux. All Rights Reserved.</p>
           <p>User Terms & Conditions | Privacy Policy</p>
         </div>
-
       </div>
     </footer>
   )
